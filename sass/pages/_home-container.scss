@@ -1,0 +1,29 @@
+.container-main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--co-white);
+    z-index: 1;
+}
+
+.container-menu {
+    margin: -1.1em 0;
+    display: flex;
+    z-index: 0;
+    flex-direction: column;
+    justify-content: start;
+    background-color: var(--co-black);
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.container-menu ul {
+    margin-top: 10rem;
+}

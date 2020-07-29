@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="100" height="100" version="1.1" viewBox="0 0 26.5 26.5" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(0 1.29)">
+  <g transform="translate(0,-271)">
+   <g transform="translate(.117 .654)">
+    <g transform="translate(1.15 -.198)">
+     <path d="m13.6 288a12.5 8.44 0 0 1-0.0118 0.366" opacity=".99" style="paint-order:normal"/>
+     <g transform="translate(.0355 1.7)">
+      <g transform="matrix(.906 0 0 1.1 1.09 6.3)" shape-rendering="auto">
+       <path d="m-1.27 242c-0.149-8.8e-4 -0.27 0.12-0.27 0.27v13.2c2.07e-4 0.148 0.121 0.268 0.27 0.268l12.7 0.0248-0.711 0.957c-0.194 0.26-0.0452 0.533 0.381 0.548h0.857c-0.0017-0.207-0.0046-0.193-0.0029-0.468-0.153-6e-3 -0.226 0.01-0.344 0.0385-0.354 0.0868-0.503-0.107-0.258-0.505 0.171-0.277 0.479-0.565 0.706-0.828 0.101-0.178 0.104-0.304-0.101-0.304h-13v-12.7h13c0.358 0 0.358-0.537 0-0.537z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+       <path d="m25.2 242c0.149-8.8e-4 0.27 0.12 0.27 0.27v13.2c-2.06e-4 0.148-0.121 0.268-0.27 0.268l-12.7 0.0248 0.711 0.957c0.194 0.26 0.0452 0.533-0.381 0.548h-0.857c0.0017-0.207 0.0046-0.193 0.0029-0.468 0.153-6e-3 0.226 0.01 0.344 0.0385 0.354 0.0868 0.503-0.107 0.258-0.505-0.171-0.277-0.479-0.565-0.706-0.828-0.101-0.178-0.104-0.304 0.101-0.304h13v-12.7h-13c-0.358 0-0.358-0.537 0-0.537z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+      </g>
+      <g transform="translate(-1.55 -1.97)">
+       <g transform="matrix(.652 0 0 .652 -46.4 223)" fill="#eaeaeb" stroke="#27292a">
+        <rect transform="rotate(-90)" x="-105" y="99.7" width="15.1" height="8.69" ry=".347" fill="#eaeaeb" opacity=".99" stroke="#27292a" stroke-width=".475" style="paint-order:normal"/>
+       </g>
+       <path d="m21.9 291a0.353 0.353 0 0 1-0.352 0.353 0.353 0.353 0 0 1-0.354-0.351 0.353 0.353 0 0 1 0.35-0.356 0.353 0.353 0 0 1 0.357 0.349" fill="#27292a" opacity=".99" style="paint-order:normal"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

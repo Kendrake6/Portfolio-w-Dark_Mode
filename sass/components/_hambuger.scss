@@ -1,0 +1,23 @@
+.hamburger {
+    position: fixed;
+    top: 0;
+    left: 1em;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 2;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    align-self: flex-start;
+    justify-self: left;
+    background-color: transparent;
+}
+
+#circ-tog {
+    position: fixed;
+    z-index: 3;
+}
+
+.hamburger input {
+    opacity: 0;
+}

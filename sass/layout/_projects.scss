@@ -1,0 +1,31 @@
+.container-projects {
+    position: absolute;
+    top: 150%;
+    width: 99.5%;
+    height: 120vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.25em;
+    z-index: 1;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    border-radius: 0.5em;
+    flex-direction: column;
+    background-color: var(--co-white);
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.proj-text {
+    border-top: 2px solid black;
+    padding-top: 1em;
+    margin: 0 1em 0 1em;
+}
+
+#proj1 {}
+
+#proj3 {}

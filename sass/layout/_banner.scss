@@ -1,0 +1,38 @@
+.container-banner {
+    z-index: 1;
+    position: absolute;
+    top: 15%;
+}
+
+.container-banner h1 {
+    color: var(--co-black)
+}
+
+.container-banner p {
+    color: var(--co-black)
+}
+
+.paras {
+    display: flex;
+    width: inherit;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.darkLight {
+    align-self: flex-start;
+    flex-direction: column;
+    justify-self: flex-end;
+    align-items: center;
+    width: 30vh;
+    height: 20vh;
+}
+
+#dark-area,
+#light-area {
+    cursor: pointer;
+}
+
+.darkLight input {
+    opacity: 0;
+}
