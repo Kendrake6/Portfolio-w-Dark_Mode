@@ -13,6 +13,27 @@
 @import 'themes/theme';
 
 
+[data-theme='light'] {
+    --ff: "Roboto",
+        serif;
+    --co-white: #eaeaeb;
+    --co-black: #27292a;
+}
+
+[data-theme='dark'] {
+    --ff: "Roboto",
+        serif;
+    --co-white: #222222;
+    --co-black: #eaeaeb;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+    transition: all 750ms !important;
+    transition-delay: 0 !important;
+}
 
 * {
     box-sizing: border-box;

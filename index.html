@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme='light'>
 
 <head>
     <meta charset="UTF-8">
@@ -36,7 +36,7 @@
                 <g transform="translate(0 -276)" fill="none" id="g855">
                     <rect x="-.000693" y="270" width="26.5" height="26.5" style="paint-order:markers stroke fill"
                         id="rect841" />
-                    <g stroke="#000" stroke-width="2.07" id="hamburger-svg">
+                    <g stroke="var(--co-black)" stroke-width="2.07" id="hamburger-svg">
                         <path d="m -0.0479,281.91119 h 26.6" id="path843" inkscape:connector-curvature="0" />
                         <path d="M 26.5,286.66119 H 0" id="path845" inkscape:connector-curvature="0" />
                         <path d="M 2.55e-7,291.41119 H 26.5" id="path847" inkscape:connector-curvature="0" />
@@ -92,7 +92,6 @@
         </div>
         <div class="darkLight toggle">
             <input type="checkbox" id="dark-toggle">
-            <input type="checkbox" id="light-toggle">
             <svg id="circ-tog" width="100px" version="1.1" viewBox="0 0 53 52" xmlns="http://www.w3.org/2000/svg"
                 xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"
                 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -107,11 +106,11 @@
                 </metadata>
                 <g transform="translate(0,-245)">
                     <g transform="translate(-60.6 181)">
-                        <path id="dark-area" onclick="checkDark();" transform="scale(.265)"
+                        <path id="dark-area" onclick="darkMode();" transform="scale(.265)"
                             d="m375 313c-44.1 0.0671-51.9 81.7-142 31.1a97.5 97.5 0 0 0 97.3 92.4 97.5 97.5 0 0 0 97.4-96.2c-22.7-20.1-39.1-27.4-52.3-27.4z"
                             fill="#000" stroke="#27292a" stroke-linecap="square" stroke-width="3.4"
                             style="paint-order:markers stroke fill" />
-                        <path id="light-area" onclick="checkLight();"
+                        <path id="light-area" onclick="lightMode();"
                             d="m75.4 97.2c11.7-0.0178 13.7-21.6 37.6-8.19-0.713-13.7-12-24.5-25.7-24.5-14.1 0.0081-25.6 11.4-25.8 25.5 6.01 5.33 10.4 7.2 13.9 7.2z"
                             fill="#eaeaeb" stroke="#27292a" stroke-linecap="square" stroke-width=".9"
                             style="paint-order:markers stroke fill" />
@@ -147,6 +146,7 @@
             </div>
             <div id="about-pic" class="about-pic"> </div>
         </div>
+        <!-- Projects -->
         <div class="border-line2 darkToggle toggle"></div>
         <div class="container-projects">
             <div id="proj1" class="projects opposite">
@@ -162,8 +162,8 @@
                                     <dc:title />
                                 </cc:Work>
                             </rdf:RDF>
-                        </metadata>
-                        <g id="svg_1" transform="translate(3.21 1.24)" fill="#27292a" fill-opacity=".962"
+                        </metadata>-
+                        <g id="svg_1" transform="translate(3.21 1.24)" fill="var(--co-black)" fill-opacity=".962"
                             stroke-width=".137">
                             <path
                                 d="m41.6 48.2c-1.57 1.57-4.93 2.13-7.33 2.13-2.4 0-5.76-0.56-7.33-2.13-0.372-0.372-0.967-0.372-1.34 0-0.372 0.371-0.372 0.967 0 1.34 2.49 2.49 7.27 2.68 8.67 2.68 1.4 0 6.17-0.196 8.67-2.68 0.364-0.371 0.364-0.967 0-1.34-0.372-0.372-0.967-0.372-1.34 0z" />
@@ -195,7 +195,7 @@
                             </rdf:RDF>
                         </metadata>
                         <g transform="matrix(1.2 0 0 1.2 -.655 -333)">
-                            <g transform="matrix(.39 0 0 .39 -12.4 261)" fill="none" id="svg_2" stroke="#27292a"
+                            <g transform="matrix(.39 0 0 .39 -12.4 261)" fill="none" id="svg_2" stroke="var(--co-black)"
                                 stroke-width=".765">
                                 <path d="m34.4 50.9h54.2v27.8h-25.4l-12.9 10.6-0.291-10.6h-15.6z" />
                                 <path d="m45 58.9h34.4" />
@@ -228,7 +228,7 @@
                         </metadata>
                         <g transform="translate(0 -271)">
                             <g id="svg_3" transform="matrix(.171 0 0 .171 1.06 245)
-                            " fill="#27292a" stroke="#27292a" stroke-width="2.76">
+                            " fill="var(--co-black)" stroke="var(--co-black)" stroke-width="2.76">
                                 <g transform="translate(-46.5 99.8)" aria-label="V">
                                     <path
                                         d="m49.7 65.4 2.74-7.41h0.956l2.69 7.41h-0.966l-2.05-5.88q-0.0982-0.284-0.15-0.656h-0.0207q-0.0413 0.31-0.171 0.667l-2.09 5.87z"
@@ -285,29 +285,31 @@
                                             style="paint-order:normal" />
                                         <g transform="translate(.0355 1.7)">
                                             <g id="svg_4_main_rec" transform="matrix(.906 0 0 1.1 1.09 6.3)"
-                                                shape-rendering="auto">
+                                                fill="var(--co-black)" shape-rendering="auto">
                                                 <path
                                                     d="m-1.27 242c-0.149-8.8e-4 -0.27 0.12-0.27 0.27v13.2c2.07e-4 0.148 0.121 0.268 0.27 0.268l12.7 0.0248-0.711 0.957c-0.194 0.26-0.0452 0.533 0.381 0.548h0.857c-0.0017-0.207-0.0046-0.193-0.0029-0.468-0.153-6e-3 -0.226 0.01-0.344 0.0385-0.354 0.0868-0.503-0.107-0.258-0.505 0.171-0.277 0.479-0.565 0.706-0.828 0.101-0.178 0.104-0.304-0.101-0.304h-13v-12.7h13c0.358 0 0.358-0.537 0-0.537z"
-                                                    color="#000000" color-rendering="auto" dominant-baseline="auto"
-                                                    image-rendering="auto" solid-color="#000000"
+                                                    color="var(--co-black)" color-rendering="auto"
+                                                    dominant-baseline="auto" image-rendering="auto"
+                                                    solid-color="var(--co-black)"
                                                     style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal" />
                                                 <path
                                                     d="m25.2 242c0.149-8.8e-4 0.27 0.12 0.27 0.27v13.2c-2.06e-4 0.148-0.121 0.268-0.27 0.268l-12.7 0.0248 0.711 0.957c0.194 0.26 0.0452 0.533-0.381 0.548h-0.857c0.0017-0.207 0.0046-0.193 0.0029-0.468 0.153-6e-3 0.226 0.01 0.344 0.0385 0.354 0.0868 0.503-0.107 0.258-0.505-0.171-0.277-0.479-0.565-0.706-0.828-0.101-0.178-0.104-0.304 0.101-0.304h13v-12.7h-13c-0.358 0-0.358-0.537 0-0.537z"
-                                                    color="#000000" color-rendering="auto" dominant-baseline="auto"
-                                                    image-rendering="auto" solid-color="#000000"
+                                                    color="var(--co-black)" color-rendering="auto"
+                                                    dominant-baseline="auto" image-rendering="auto"
+                                                    solid-color="var(--co-black)"
                                                     style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal" />
                                             </g>
                                             <g transform="translate(-1.55 -1.97)">
                                                 <g id="svg_4_comp_mob" transform="matrix(.652 0 0 .652 -46.4 223)"
-                                                    fill="#eaeaeb" stroke="#27292a">
+                                                    fill="var(--co-white)" stroke="var(--co-black)">
                                                     <rect transform="rotate(-90)" x="-105" y="99.7" width="15.1"
-                                                        height="8.69" ry=".347" fill="#eaeaeb" opacity=".99"
-                                                        stroke="#27292a" stroke-width=".475"
+                                                        height="8.69" ry=".347" fill="var(--co-black)" opacity=".99"
+                                                        stroke="var(--co-black)" stroke-width=".475"
                                                         style="paint-order:normal" />
                                                 </g>
                                                 <path id="svg_4_comp_mob_button"
                                                     d="m21.9 291a0.353 0.353 0 0 1-0.352 0.353 0.353 0.353 0 0 1-0.354-0.351 0.353 0.353 0 0 1 0.35-0.356 0.353 0.353 0 0 1 0.357 0.349"
-                                                    fill="#27292a" opacity=".99" style="paint-order:normal" />
+                                                    fill="var(--co-white)" opacity=".99" style="paint-order:normal" />
                                             </g>
                                         </g>
                                     </g>
@@ -315,8 +317,6 @@
                             </g>
                         </g>
                     </svg>
-
-
 
                 </div>
                 <div class="proj-text p2 letter">Frontend Web Design</div>
@@ -339,29 +339,31 @@
                         <g transform="translate(0 -271)">
                             <path id="svg_5_main_p1"
                                 d="m4.66 293-1.63-1e-3c0.585-0.323 0.695-0.867 0.814-1.41 0.0725 0.566 0.231 1.06 0.792 1.4z"
-                                fill="#27292a" stroke="#27292a" stroke-linejoin="round" stroke-width=".152" />
+                                fill="var(--co-black)" stroke="var(--co-black)" stroke-linejoin="round"
+                                stroke-width=".152" />
                             <path id="svg_5_main_p2"
                                 d="m23.2 293-1.63-1e-3c0.585-0.323 0.695-0.867 0.814-1.41 0.0725 0.566 0.231 1.06 0.792 1.4z"
-                                fill="#27292a" stroke="#27292a" stroke-linejoin="round" stroke-width=".152" />
+                                fill="var(--co-black)" stroke="var(--co-black)" stroke-linejoin="round"
+                                stroke-width=".152" />
                             <g fill="none">
                                 <rect id="svg_5_comp_rect" x=".694" y="275" width="24.7" height="16.5" ry=".507"
-                                    opacity=".99" stroke="#27292a" stroke-linecap="round" stroke-width=".424"
+                                    opacity=".99" stroke="var(--co-black)" stroke-linecap="round" stroke-width=".424"
                                     style="paint-order:normal" />
                                 <rect id="svg_5_comp_scale" transform="rotate(59.4)" x="242" y="138" width="10.4"
-                                    height="1.03" rx="0" ry=".172" fill="#27292a" opacity=".99" stroke="#27292a"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width=".0885"
-                                    style="paint-order:normal" />
-                                <path d="m5.29 284" stroke="#000" stroke-width=".265px" />
+                                    height="1.03" rx="0" ry=".172" fill="var(--co-black)" opacity=".99"
+                                    stroke="var(--co-black)" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width=".0885" style="paint-order:normal" />
+                                <path d="m5.29 284" stroke="var(--co-black)" stroke-width=".265px" />
                             </g>
-                            <g id="svg_5_comp_pen1" transform="matrix(.863 0 0 1.04 1.03 -11.7)" fill="#27292a"
-                                stroke="#27292a">
+                            <g id="svg_5_comp_pen1" transform="matrix(.863 0 0 1.04 1.03 -11.7)" fill="var(--co-black)"
+                                stroke="var(--co-black)">
                                 <path
                                     d="m13 280-0.25 0.919v5.3c0.169 0.133 0.434 0.0776 0.501-0.023 0.0165-2.02-0.0195-3.3-0.0451-5.29z"
-                                    fill="#27292a" stroke="#27292a" stroke-width=".0852" />
+                                    fill="var(--co-black)" stroke="var(--co-black)" stroke-width=".0852" />
                             </g>
                             <path id="svg_5_comp_pen2"
                                 d="m13.7 286c0.054-0.0521-0.267-0.154-0.143-0.287 0.412-0.446 1.19-1.32 2.16-2.43 0.321-0.366 0.969-1.1 0.969-1.1l0.2-0.236c-0.225-0.613 0.0376-0.74 0.686-0.99 0.479-0.317 0.646-0.802 0.646-0.802s-0.0642 1.46-0.364 1.75c-0.262 0.254-0.759 0.176-0.759 0.176s-1.22 1.35-1.23 1.35l-2.17 2.55"
-                                fill="#27292a" stroke="#27292a" stroke-width=".0942" />
+                                fill="var(--co-black)" stroke="var(--co-black)" stroke-width=".0942" />
                         </g>
                     </svg>
                 </div>
@@ -383,22 +385,22 @@
                             </rdf:RDF>
                         </metadata>
                         <g id="svg_6" transform="translate(0 -271)">
-                            <g id="svg_6_comp_pen" transform="matrix(.47 -.765 .922 .566 -247 132)" fill="#27292a"
-                                stroke="#27292a">
+                            <g id="svg_6_comp_pen" transform="matrix(.47 -.765 .922 .566 -247 132)"
+                                fill="var(--co-black)" stroke="var(--co-black)">
                                 <path
                                     d="m13 280-0.25 0.919v5.3c0.169 0.133 0.434 0.0776 0.501-0.023 0.0165-2.02-0.0195-3.3-0.0451-5.29z"
-                                    fill="#27292a" stroke="#27292a" stroke-width=".0852" />
+                                    fill="var(--co-black)" stroke="var(--co-black)" stroke-width=".0852" />
                             </g>
-                            <g fill=" none">
+                            <g fill="none">
                                 <rect id="svg_6_main_rect" x=".694" y="275" width="24.7" height="16.5" ry=".507"
-                                    opacity=".99" stroke="#27292a" stroke-linecap="round" stroke-width=".424"
+                                    opacity=".99" stroke="var(--co-black)" stroke-linecap="round" stroke-width=".424"
                                     style="paint-order:normal" />
-                                <path d="m5.29 284" stroke='#27292a' stroke-width=".265px" />
-                                <g id="svg_6_comp_paper" transform="translate(2.38e-7 7.63e-6)" stroke="#27292a"
-                                    stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m5.29 284" stroke='var(--co-black)' stroke-width=".265px" />
+                                <g id="svg_6_comp_paper" transform="translate(2.38e-7 7.63e-6)" stroke="var(--co-black)"
+                                    stroke-linecap="round" fill='var(--co-white)' stroke-linejoin="round">
                                     <rect x="9.59" y="278" width="6.9" height="11.3" ry=".0764" opacity=".99"
                                         stroke-width=".0651" style="paint-order:normal" />
-                                    <g stroke-width=".0859">
+                                    <g stroke='var(--co-black)' stroke-width=".0859">
                                         <path d="m10.5 279h5.14" />
                                         <path d="m10.5 280h5.14" />
                                         <path d="m10.5 281h5.14" />
@@ -418,9 +420,6 @@
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
-<script src="scripts/dark-mode/dark-mode-projects.js"></script>
-<script src="scripts/dark-mode/dark-mode.js"></script>
-<script src="scripts/dark-mode/dark-mode-banner.js"></script>
-<script src="scripts/animations/animations.js"></script>
+<script src="scripts/dark-mode/dark-mode-main.js"></script>
 
 </html>
